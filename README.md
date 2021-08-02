@@ -2,6 +2,7 @@
 Mi nombre es Luciano, nací en Buenos Aires, Argentina en el año 1994 y actualmente vivo en la Ciudad Autonoma de Buenos Aires, Argentina.
 
 🔭 Tecnologías con las que he trabajado:
+
 ✔ React Js.
 
 ✔ JavaScript.
