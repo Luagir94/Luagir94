@@ -21,6 +21,7 @@ Mi nombre es Luciano, nací en Buenos Aires, Argentina en el año 1994 y actualm
 ✔ GitHub.
 
 💬 Un poco mas sobre mi
+
 ✔ Tambien soy estudiante de abogacia de la Universidad de Buenos Aires(UBA).
 
 
