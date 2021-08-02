@@ -30,7 +30,9 @@ Mi nombre es Luciano, nací en Buenos Aires, Argentina en el año 1994 y actualm
 ✔ Siempre dispuesto a aprender y seguir creciendo.
 
 📫 Puedes encontrarme en LinkedIn:
+
 ✔ https://www.linkedin.com/in/lucianogiraudi/
 
 📫 y en Twitter:
+
 ✔ https://twitter.com/LuagirDev
