@@ -22,6 +22,8 @@ Mi nombre es Luciano, nací en Buenos Aires, Argentina en el año 1994 y actualm
 [<img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" width="48">](https://github.com/)
 [<img src="https://github.com/devicons/devicon/blob/master/icons/visualstudio/visualstudio-plain.svg" width="48">](https://code.visualstudio.com/)
 
+
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Luagir94&show_icons=true&locale=en&layout=compact&theme=dracula" alt="Luagir94 top-langs" /></p>
 💬 Un poco mas sobre mi
 
 ✔ Tambien soy estudiante de abogacia de la Universidad de Buenos Aires(UBA).
