@@ -1,6 +1,7 @@
-¡Hola a todos! 👋
+# Hello world! ✨ I'm Luciano Giraudi
+### Front-End Developer & Law Student
 
-Mi nombre es Luciano, nací en Buenos Aires, Argentina en el año 1994 y actualmente vivo en la Ciudad Autonoma de Buenos Aires, Argentina.
+#### I am a curious and restless person, ready for new creative challenges 🚀 I believe that all things in this world are connected and I love finding new relationships in things that don't seem connected at first glance 💡
 
 🔭 Tecnologías con las que he trabajado:
 
@@ -31,10 +32,10 @@ Mi nombre es Luciano, nací en Buenos Aires, Argentina en el año 1994 y actualm
 
 ✔ Siempre dispuesto a aprender y seguir creciendo.
 
-📫 Puedes encontrarme en LinkedIn:
+📫 You can find me on LinkedIn:
 
 ✔ https://www.linkedin.com/in/lucianogiraudi/
 
-📫 y en Twitter:
+📫 And Twitter:
 
 ✔ https://twitter.com/LuagirDev
