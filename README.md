@@ -1,7 +1,7 @@
 # Hello world! ✨ I'm Luciano Giraudi
 ### Front-End Developer & Law Student
 
-#### I am a curious and restless person, ready for new creative challenges 🚀 I believe that all things in this world are connected and I love finding new relationships in things that don't seem connected at first glance 💡
+#### I am a curious and restless person, ready for new IT challenges 🚀 I believe that all things in this world are connected and I love finding new relationships in things that don't seem connected at first glance 💡
 
 🔭 Tecnologías con las que he trabajado:
 
@@ -25,12 +25,7 @@
 
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Luagir94&show_icons=true&locale=en&layout=compact&theme=dracula" alt="Luagir94 top-langs" /></p>
-💬 Un poco mas sobre mi
 
-✔ Tambien soy estudiante de abogacia de la Universidad de Buenos Aires(UBA).
-
-
-✔ Siempre dispuesto a aprender y seguir creciendo.
 
 📫 You can find me on LinkedIn:
 
