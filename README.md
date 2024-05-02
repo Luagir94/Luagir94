@@ -101,7 +101,6 @@
                     rel="noreferrer">
     <img align="center" alt="Luciano Griaudi | Web" width="24px" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/chrome/chrome-original.svg"/>
 </a> &nbsp;&nbsp;
-
 <a href="https://twitter.com/LuagirDev"  target="_blank"
                     rel="noreferrer">
   <img align="center" alt="Luciano Griaudi | Twitter" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/twitter/twitter-original.svg" />
