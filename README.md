@@ -96,6 +96,10 @@
 <a href="https://www.linkedin.com/in/lucianogiraudi/" target="_blank">
   <img align="center" alt="Luciano Giraudi | Linkedin" width="24px" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/linkedin/linkedin-original.svg" />
 </a> &nbsp;&nbsp;
+  <a href="https://t.me/Luagir">
+    <img align="center" alt="Luciano Griaudi | Web" width="24px" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/chrome/chrome-original.svg"/>
+</a> &nbsp;&nbsp;
+
 <a href="https://twitter.com/LuagirDev" target="_blank">
   <img align="center" alt="Luciano Griaudi | Twitter" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/twitter/twitter-original.svg" />
 </a> &nbsp;&nbsp;
@@ -104,9 +108,6 @@
 </a> &nbsp;&nbsp;
 <a href="https://api.whatsapp.com/send?phone=541133863554">
     <img align="center" alt="Luciano Griaudi | Whatsapp" width="24px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1024px-WhatsApp.svg.png" />
-</a> &nbsp;&nbsp;
-<a href="https://t.me/Luagir">
-    <img align="center" alt="Luciano Griaudi | Telegram" width="24px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1024px-Telegram_logo.svg.png?20220101141644 "/>
 </a> &nbsp;&nbsp;
 
 <p>
