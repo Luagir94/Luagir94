@@ -93,20 +93,25 @@
   <h3><b>😄 Can Connect With Me On</b></h3>
   </div>
 <p align="center">
-<a href="https://www.linkedin.com/in/lucianogiraudi/" target="_blank">
+<a href="https://www.linkedin.com/in/lucianogiraudi/"  target="_blank"
+                    rel="noreferrer">
   <img align="center" alt="Luciano Giraudi | Linkedin" width="24px" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/linkedin/linkedin-original.svg" />
 </a> &nbsp;&nbsp;
-  <a href="https://t.me/Luagir">
+  <a href="https://lucianogiraudi.com"  target="_blank"
+                    rel="noreferrer">
     <img align="center" alt="Luciano Griaudi | Web" width="24px" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/chrome/chrome-original.svg"/>
 </a> &nbsp;&nbsp;
 
-<a href="https://twitter.com/LuagirDev" target="_blank">
+<a href="https://twitter.com/LuagirDev"  target="_blank"
+                    rel="noreferrer">
   <img align="center" alt="Luciano Griaudi | Twitter" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/twitter/twitter-original.svg" />
 </a> &nbsp;&nbsp;
-<a href="mailto:lucianoagiraudi@gmail.com" >
+<a href="mailto:lucianoagiraudi@gmail.com" target="_blank"
+                    rel="noreferrer" >
   <img align="center" alt="Luciano Griaudi | Gmail" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1024px-Gmail_icon_%282020%29.svg.png?20221017173631" />
 </a> &nbsp;&nbsp;
-<a href="https://api.whatsapp.com/send?phone=541133863554">
+<a href="https://api.whatsapp.com/send?phone=541133863554"  target="_blank"
+                    rel="noreferrer">
     <img align="center" alt="Luciano Griaudi | Whatsapp" width="24px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1024px-WhatsApp.svg.png" />
 </a> &nbsp;&nbsp;
 
