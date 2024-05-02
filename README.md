@@ -1,6 +1,6 @@
 # Hello world! ✨ I'm Luciano Giraudi
 
-## Front-End Developer & Law Student
+## Full-Stack Developer
 
 #### I am a curious and restless person, ready for new IT challenges 🚀 I believe that all things in this world are connected and I love finding new relationships in things that don't seem connected at first glance 💡
 
