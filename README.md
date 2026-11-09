@@ -11,5 +11,3 @@
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luagir94/Luagir94/main/pacman_dark.svg">
   <img alt="Pac-Man eating my contribution graph" src="https://raw.githubusercontent.com/Luagir94/Luagir94/main/pacman_light.svg">
 </picture>
-
-<sub>Profile card design inspired by <a href="https://github.com/ignaciochiappero">@ignaciochiappero</a>.</sub>
