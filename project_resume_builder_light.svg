@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="509px" height="159px"
+     viewBox="0 0 509 159" font-family="ConsolasFallback,Consolas,Menlo,monospace">
+<style>
+@font-face {
+  src: local('Consolas'), local('Consolas Bold');
+  font-family: 'ConsolasFallback';
+  font-display: swap;
+  size-adjust: 109%;
+}
+text, tspan {white-space: pre;}
+.px {shape-rendering: crispEdges;}
+.key {fill: #bc4c00;}
+.value {fill: #0550ae;}
+.cc {fill: #8c959f;}
+</style>
+<g class="px">
+<path d="M3 0h496v3h3v153h-3v3h-496v-3h-3v-153h3z" fill="#d8d8da"/>
+<path d="M6 3h490v3h3v147h-3v3h-490v-3h-3v-147h3z" fill="#ffffff"/>
+<rect x="6" y="153" width="490" height="3" fill="#bc4c00"/>
+</g>
+<text x="21" y="35.40" font-size="18px" font-weight="bold"><tspan class="cc">~/</tspan><tspan class="key">Resume Builder</tspan></text>
+<text x="481" y="35.40" font-size="18px" text-anchor="end" class="value">&gt;</text>
+<text fill="#24292f" font-size="15px">
+<tspan x="21" y="63.40">Client-side resume builder that exports ATS-</tspan>
+<tspan x="21" y="83.40">friendly PDFs right in the browser. No backend, no</tspan>
+<tspan x="21" y="103.40">sign-up: your data never leaves your device.</tspan>
+</text>
+<text x="21" y="135.00" font-size="15px"><tspan class="value">React</tspan><tspan class="cc"> · </tspan><tspan class="value">Tailwind CSS</tspan><tspan class="cc"> · </tspan><tspan class="value">Vercel</tspan></text>
+</svg>

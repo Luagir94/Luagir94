@@ -67,6 +67,13 @@ jobs:
       - name: Rebuild the link buttons
         run: python tools/build_links.py
 
+      - name: Rebuild the project cards
+        run: python tools/build_projects.py
+
+      # Rewrites the BLOG section of README.md; empty until the first post.
+      - name: Rebuild the latest blog posts
+        run: python tools/build_blog.py
+
       # This is the only workflow left, but main can still move while it
       # fetches stats -- a manual push lands mid-run. The card and the board
       # are deterministic build outputs, so replaying them on top of whatever
@@ -79,4 +86,4 @@ jobs:
         with:
           commit_message: "chore: refresh profile card stats"
           branch: main
-          file_pattern: "*.svg cache/*.json"
+          file_pattern: "*.svg cache/*.json README.md"
