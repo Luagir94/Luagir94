@@ -30,14 +30,10 @@ from pathlib import Path
 from build_card import ADVANCE, LINE_MID, THEMES
 from build_links import OUTLINE_MIX, PX, stepped
 from build_pacman import CANVAS_W, mix
+from readme import picture, splice
 
 ROOT = Path(__file__).resolve().parent.parent
-README = ROOT / "README.md"
 FEED = os.environ.get("BLOG_FEED", "https://lucianogiraudi.dev/feed.xml")
-RAW = "https://raw.githubusercontent.com/Luagir94/Luagir94/main"
-
-START = "<!-- BLOG:START -->"
-END = "<!-- BLOG:END -->"
 
 MAX_POSTS = 4
 FONT = 16
@@ -138,17 +134,12 @@ def row(theme: str, post: dict) -> str:
     return svg(CANVAS_W, ROW_H, theme, body)
 
 
-def picture(name: str, alt: str) -> str:
-    return (f'<picture><source media="(prefers-color-scheme: dark)" srcset="{RAW}/{name}_dark.svg">'
-            f'<img alt="{html.escape(alt)}" width="100%" src="{RAW}/{name}_light.svg"></picture>')
-
-
 def section(posts: list[dict]) -> str:
     if not posts:
         return ""
-    lines = ["", f'<p align="left">{picture("blog_header", "Latest blog posts")}</p>', ""]
+    lines = ["", f'<p align="left">{picture("blog_header", "Latest blog posts", "100%")}</p>', ""]
     for i, post in enumerate(posts):
-        lines.append(f'<a href="{html.escape(post["link"])}">{picture(f"blog_post_{i}", post["title"])}</a>')
+        lines.append(f'<a href="{html.escape(post["link"])}">{picture(f"blog_post_{i}", post["title"], "100%")}</a>')
     return "\n".join(lines) + "\n"
 
 
@@ -165,12 +156,7 @@ def main() -> None:
         for i, post in enumerate(posts):
             (ROOT / f"blog_post_{i}_{theme}.svg").write_text(row(theme, post), encoding="utf-8")
 
-    readme = README.read_text(encoding="utf-8")
-    if START not in readme or END not in readme:
-        raise SystemExit(f"README.md is missing the {START} / {END} markers")
-    head, rest = readme.split(START, 1)
-    _, tail = rest.split(END, 1)
-    README.write_text(head + START + section(posts) + END + tail, encoding="utf-8")
+    splice("BLOG", section(posts))
     print(f"blog     : {len(posts)} post(s) from {FEED}")
 
 

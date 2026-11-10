@@ -1,6 +1,9 @@
 """Render the featured-project cards that sit under the link buttons.
 
-Writes project_<slug>_<theme>.svg for every entry in PROJECTS, in both themes.
+Writes project_<slug>_<theme>.svg for every entry in PROJECTS, in both themes,
+and rewrites the PROJECTS section of README.md to match. PROJECTS is the only
+place to edit: add, remove or reorder entries there and the cards, their links
+and the README all follow.
 
 Like the link buttons, every card is its own image inside its own link,
 because GitHub shows README SVGs through <img> and nothing inside one is
@@ -21,6 +24,7 @@ from pathlib import Path
 from build_card import ADVANCE, THEMES
 from build_links import OUTLINE_MIX, PX, stepped
 from build_pacman import CANVAS_W, mix
+from readme import picture, splice
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -116,13 +120,33 @@ text, tspan {{white-space: pre;}}
 """
 
 
+def section() -> str:
+    rows = []
+    for r in range(0, len(PROJECTS), PER_ROW):
+        cells = "".join(
+            f'<a href="{html.escape(link)}">{picture(f"project_{slug}", name, f"{100 / PER_ROW:g}%")}</a>'
+            for slug, name, _, _, link in PROJECTS[r:r + PER_ROW])
+        rows.append(f'<p align="left">{cells}</p>')
+    return "".join(rows)
+
+
 def main() -> None:
     print(f"row      : {CANVAS_W}px = {PER_ROW} x {CARD_W:g}px cards, {BODY_COLS} cols of body text")
-    for theme in THEMES:
-        for i, (slug, *_) in enumerate(PROJECTS):
-            out = ROOT / f"project_{slug}_{theme}.svg"
-            out.write_text(build(theme, i), encoding="utf-8")
-            print(f"wrote {out.name} ({out.stat().st_size:,} bytes)")
+    slugs = [slug for slug, *_ in PROJECTS]
+    if len(set(slugs)) != len(slugs):
+        raise SystemExit(f"duplicate project slugs: {slugs}")
+    # Render everything first, so a description that does not fit stops the run
+    # before any existing card is deleted.
+    cards = {f"project_{slug}_{theme}.svg": build(theme, i)
+             for theme in THEMES for i, (slug, *_) in enumerate(PROJECTS)}
+    for old in ROOT.glob("project_*.svg"):
+        old.unlink()
+    for name, svg in cards.items():
+        out = ROOT / name
+        out.write_text(svg, encoding="utf-8")
+        print(f"wrote {out.name} ({out.stat().st_size:,} bytes)")
+    splice("PROJECTS", section())
+    print(f"readme   : {len(PROJECTS)} project(s) in the PROJECTS section")
 
 
 if __name__ == "__main__":
