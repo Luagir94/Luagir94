@@ -82,6 +82,9 @@ INFO = [
     ("Uptime", None),  # filled from BIRTHDATE
     ("Host", "Buenos Aires, Argentina"),
     ("Kernel", "Senior Fullstack Developer"),
+    ("Work", "Santander Tecnología"),
+    # A third element overrides the value colour; green reads as "go".
+    ("Status", "Available for freelance", "addColor"),
     ("IDE", "WebStorm, VSCode, LazyVim"),
     None,
     ("Languages.Programming", "TypeScript, JavaScript, C#"),
@@ -169,11 +172,11 @@ class Row:
         return f'<tspan x="{x}" y="{y:g}">{"".join(out)}</tspan>'
 
 
-def info_row(key: str, value: str, eid: str | None = None) -> Row:
+def info_row(key: str, value: str, eid: str | None = None, cls: str = "value") -> Row:
     return (
         Row().text(". ", cls="cc").key(key).text(":")
         .text(" ", cls="cc").fill().text(" ", cls="cc")
-        .value(value, eid)
+        .text(value, cls=cls, eid=eid)
     )
 
 
@@ -243,11 +246,11 @@ def build_panel(x: int, y0: float) -> tuple[list[str], int]:
         if item is None:
             rows.append(None)
             continue
-        key, val = item
+        key, val, *style = item
         if key == "Uptime":
             rows.append(info_row(key, uptime(), eid="age_data"))
         else:
-            rows.append(info_row(key, val))
+            rows.append(info_row(key, val, cls=style[0] if style else "value"))
 
     rows.append(None)
     rows.append(rule_row("- Contact"))
